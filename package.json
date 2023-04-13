@@ -41,8 +41,5 @@
   "dependencies": {
     "chalk": "^2.4.1",
     "commander": "^2.15.1"
-  },
-  "devDependencies": {
-    "prettier": "^1.12.1"
   }
 }
