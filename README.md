@@ -1,21 +1,18 @@
 # nc
 
-node modules manager
+Faster removal or update package (yarn/pnpm)
 
 ## Installation
 
-### Yarn
-
-```shell
-yarn global add "nc"
 ```
-
-### Npm
-
-```shell
-npm install --global "nc"
+scoop install nc
 ```
 
 ## Usage
+
+```
+set-alias ncrm "nc rm"
+set-alias ncup "nc up"
+```
 
 ## Related
