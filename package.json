@@ -1,0 +1,48 @@
+{
+  "name": "nc",
+  "version": "0.1.0",
+  "description": "",
+  "engines": {
+    "node": ">=8.11.2"
+  },
+  "main": "./lib/nc.js",
+  "bin": {
+    "nc": "./bin/nc.js"
+  },
+  "directories": {
+    "bin": "./bin",
+    "lib": "./lib"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "README.md",
+    "LICENSE.md"
+  ],
+  "scripts": {
+    "prepublishOnly": "yarn lint && yarn prettier && yarn test",
+    "prettier": "prettier --write '**/*.{js,json,css,md}'",
+    "lint": "eslint --fix ./bin ./lib",
+    "test": "jest",
+    "test:watch": "yarn test --watch"
+  },
+  "keywords": [
+    "nc",
+    "commander",
+    "commanderjs",
+    "command-line-tool",
+    "cli",
+    "command-line",
+    "command line",
+    "terminal",
+    "node",
+    "nodejs"
+  ],
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.15.1"
+  },
+  "devDependencies": {
+    "prettier": "^1.12.1"
+  }
+}
