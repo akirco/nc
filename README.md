@@ -10,9 +10,13 @@ scoop install nc
 
 ## Usage
 
+
 ```
-set-alias ncrm "nc rm"
-set-alias ncup "nc up"
+# add to $profile
+# nc
+
+function ncr { nc rm }
+function ncu { nc up }
 ```
 
 ## Related
